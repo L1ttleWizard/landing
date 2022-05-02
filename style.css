@@ -1,0 +1,147 @@
+body {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+    background: url("background4.jpg") no-repeat;
+    background-origin: border-box;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    padding-right: 0;
+    padding-left: 5%;
+    height: 100%;
+}
+
+.main-block {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 900px;
+
+}
+
+.main-block:nth-child(2) {
+    background-color: bisque;
+}
+
+.wrapper {
+    height: 100%;
+    background-color: #102c30;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+
+    background-position: scroll;
+
+
+
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
+    justify-content: space-between;
+    gap: 45px;
+
+}
+
+.text-container {
+    height: 100%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+
+}
+
+.ocean-text {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+
+    border: 3px solid white;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:25px;
+    word-wrap:normal;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    width: auto;
+
+
+}
+
+.exact:hover {
+    background-color: rgba(16, 44, 48, 0.4);
+    border: 1 px white solid;
+    color: bisque;
+    transition: background-color ease-in 0.4s, color ease-in 0, 5s, border ease-in 0.4s;
+}
+
+.exact {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 156px;
+    height: 40px;
+    border-radius: 0;
+    background-color: white;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.4s ease 0s,
+        background-color 0.4s ease 0s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;;
+
+}
+.social-block img {
+    cursor: pointer;
+}
+
+.soon-text {
+    letter-spacing: 0.07em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 40px;
+}
+.page-footer{
+    width:-webkit-fill-available;
+    background-color:black;
+    margin:0;
+    padding:0;
+    color:white;
+    font-size:17px;
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.footer-text{
+    display:block;
+}
