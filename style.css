@@ -63,8 +63,8 @@ body {
     margin-bottom: auto;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size:25px;
-    word-wrap:normal;
+    font-size: 25px;
+    word-wrap: normal;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     width: auto;
@@ -99,8 +99,10 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 35px;;
+    gap: 35px;
+
 }
+
 .social-block img {
     cursor: pointer;
 }
@@ -115,36 +117,42 @@ body {
     vertical-align: baseline;
     font-size: 40px;
 }
-.page-footer{
-    width:-webkit-fill-available;
-    background-color:black;
-    margin:0;
-    padding:0;
-    color:white;
-    font-size:17px;
-    font-family:'Open Sans', sans-serif;
-    text-align:center;
-    height:50px;
-    display:flex;
+
+.page-footer {
+    width: -webkit-fill-available;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    height: 50px;
+    display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
-.footer-text{
-    display:block;
+
+.footer-text {
+    display: block;
 }
+
 @media (max-width: 1080px) {
-        .ocean-text{
-            font-size:4vw;
-        }
-        .soon-text{
-            font-size:4vw;
-        }
-        .exact{
-            width:25vw;
-            font-size:3vw;
-            height:5.5vw;
-        }
-        .social-block{
-            gap:4vw;            
-        }
+    .ocean-text {
+        font-size: 4vw;
+    }
+
+    .soon-text {
+        font-size: 4vw;
+    }
+
+    .exact {
+        width: 25vw;
+        font-size: 3vw;
+        height: 5.5vw;
+    }
+
+    .social-block {
+        gap: 4vw;
+    }
 }
