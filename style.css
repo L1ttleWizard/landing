@@ -93,6 +93,12 @@ body {
     margin-right: auto;
     border-radius: 4vw;
 }
+.exact::after{
+    content:"";
+    width:1px;
+    background-color: bisque;
+    transform: translateX(-10px);    
+}
 
 .social-block {
     display: flex;
