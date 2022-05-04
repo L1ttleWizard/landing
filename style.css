@@ -1,6 +1,6 @@
 body {
     width: auto;
-    height: auto;
+    
     margin: 0;
     padding: 0;
     background: url("background4.jpg") no-repeat;
@@ -133,7 +133,8 @@ body {
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    height: 50px;
+    margin:0;
+    padding:0;
     display: flex;
     justify-content: center;
     align-items: center;
