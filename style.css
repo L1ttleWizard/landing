@@ -18,7 +18,7 @@ body {
 .main-block {
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 900px;
+    height: 1080px;
 }
 
 .main-block:nth-child(2) {
